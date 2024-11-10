@@ -11,17 +11,10 @@ public class Bike implements Vehicle{
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
     public double getHour() {
         return hour;
     }
 
-    public void setHour(double hour) {
-        this.hour = hour;
-    }
 
     @Override
     public final double calculateRentalCost() {

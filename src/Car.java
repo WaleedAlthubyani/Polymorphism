@@ -12,17 +12,11 @@ public class Car implements Vehicle{
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
 
     public double getDays() {
         return days;
     }
 
-    public void setDays(int days) {
-        this.days = days;
-    }
 
     @Override
     public final double calculateRentalCost() {
